@@ -7,3 +7,4 @@ functions:
     lang: node10-express
     handler: ./demo
     image: alexellis2/demo:latest
+
