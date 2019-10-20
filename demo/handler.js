@@ -1,4 +1,4 @@
-const axios = require ("axios")
+"use strict"
 
 module.exports = (event, context) => {
   icon = `🍩`;
