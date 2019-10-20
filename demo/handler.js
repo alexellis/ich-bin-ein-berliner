@@ -1,8 +1,8 @@
 "use strict"
 
 module.exports = (event, context) => {
-  icon = `🍩`;
-  // icon = `🇩🇪`;
+  let icon = `🍩`;
+  // let icon = `🇩🇪`;
 
   context
     .status(200)
