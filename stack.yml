@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  demo:
+    lang: node10-express
+    handler: ./demo
+    image: alexellis2/demo:latest
