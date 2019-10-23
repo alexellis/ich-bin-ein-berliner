@@ -1,8 +1,8 @@
 "use strict"
 
 module.exports = (event, context) => {
-  let y = "🐶";
-  let x = "😸";
+  let x = "🐶";
+  let y = "😸";
 
   let color = process.env.color || "white";
   context
