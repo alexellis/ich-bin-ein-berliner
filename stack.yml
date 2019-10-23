@@ -10,5 +10,4 @@ functions:
     labels:
       com.openfaas.scale.zero: false
     environment:
-#      color: white
-      color: citrus
+      color: #9fb70a
