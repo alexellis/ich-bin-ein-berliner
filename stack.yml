@@ -3,8 +3,7 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
 functions:
-  demo:
+  katzenhunde:
     lang: node10-express
-    handler: ./demo
-    image: alexellis2/demo:latest
-
+    handler: ./katzenhunde
+    image: alexellis2/katzenhunde:latest
