@@ -1,5 +1,5 @@
 {
-  "name": "function",
+  "name": "@openfaas/async-await",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axois": "0.0.1-security"
+    "axios": "^0.19.0"
   }
 }
