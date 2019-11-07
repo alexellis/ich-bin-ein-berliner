@@ -11,3 +11,7 @@ functions:
       com.openfaas.scale.zero: false
     environment:
       color: "#9fb70a"
+  async-await:
+    lang: node12
+    handler: ./async-await
+    image: alexellis2/async-await:latest
