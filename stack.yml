@@ -10,7 +10,8 @@ functions:
     labels:
       com.openfaas.scale.zero: false
     environment:
-      color: "#9fb70a"
+      color: "white"
+
   async-await:
     lang: node12
     handler: ./async-await
